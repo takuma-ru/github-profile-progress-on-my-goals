@@ -13,7 +13,6 @@ export const createNestServer = async (expressInstance) => {
     new ExpressAdapter(expressInstance),
   );
 
-  // ここにセキュリティについての設定を追加する
   app.use(helmet());
   app.enableCors();
 

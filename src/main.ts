@@ -3,9 +3,14 @@ import { AppModule } from './app.module';
 import helmet from 'helmet';
 
 async function bootstrap() {
+  const port = 3000;
   const app = await NestFactory.create(AppModule);
+
   app.use(helmet());
   app.enableCors();
-  await app.listen(3000);
+
+  await app.listen(port);
+
+  console.log(`http://localhost:${port}/`);
 }
 bootstrap();
