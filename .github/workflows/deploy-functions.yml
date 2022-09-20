@@ -28,6 +28,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@main
+      - name: Install Dependencies
+        run: yarn install --immutable --immutable-cache --check-cache
       - name: Download Artifact
         uses: actions/download-artifact@main
         with:
