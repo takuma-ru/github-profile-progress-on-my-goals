@@ -13,9 +13,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@main
       - name: Install Dependencies
-        run: npm install
+        run: yarn install --immutable --immutable-cache --check-cache
       - name: Build
-        run: npm run build-prod
+        run: yarn build
       - name: Archive Production Artifact
         uses: actions/upload-artifact@main
         with:

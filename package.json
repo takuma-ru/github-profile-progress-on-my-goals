@@ -23,11 +23,11 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "deploy": "npm run build && firebase deploy --only functions",
+    "deploy": "yarn build && firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "fb-serve": "npm run build && firebase emulators:start --only functions",
-    "fb-shell": "npm run build && firebase functions:shell",
-    "fb-start": "npm run fb-shell"
+    "fb-serve": "yarn build && firebase emulators:start --only functions",
+    "fb-shell": "yarn build && firebase functions:shell",
+    "fb-start": "yarn fb-shell"
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
