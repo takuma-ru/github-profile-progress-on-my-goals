@@ -4,49 +4,47 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   async getHello() {
     return `
-    <svg width="600" height="214" viewBox="0 0 600 214" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g id="card">
-      <rect width="600" height="214" rx="8" fill="white" />
-      <text id="header" fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="20"
-        font-weight="bold" letter-spacing="0em">
-        <tspan x="24" y="45.26">UserName Goal for 2022</tspan>
-      </text>
-      <path id="Vector 1" d="M28 102H572" stroke="#E0E0E0" stroke-width="12" stroke-linecap="round" />
-      <g id="denominator">
-        <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16"
-          font-weight="bold" letter-spacing="0em">
-          <tspan x="531.219" y="84.208">99999</tspan>
-        </text>
-        <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="12"
-          font-weight="bold" letter-spacing="0em">
-          <tspan x="497.668" y="84.208">Goal: </tspan>
-        </text>
-      </g>
-      <text id="denominator_2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans"
-        font-size="16" font-weight="600" letter-spacing="0em">
-        <tspan x="273.219" y="128.208">99999</tspan>
-      </text>
-      <path id="Vector 2" d="M28 96C24.6863 96 22 98.6863 22 102C22 105.314 24.6863 108 28 108V96ZM28 108H296V96H28V108Z"
-        fill="#FF8484" />
-      <g id="Group 1">
-        <text id="commit" fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans"
-          font-size="12" font-weight="bold" letter-spacing="0em">
-          <tspan x="24" y="79.656">commit</tspan>
-        </text>
-        <g id="commit_2">
-          <mask id="mask0_2_36" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="75" y="66" width="20" height="20">
-            <rect id="Bounding box" x="75" y="66" width="20" height="20" fill="#D9D9D9" />
-          </mask>
-          <g mask="url(#mask0_2_36)">
-            <path id="commit_3"
-              d="M85 80C84.014 80 83.1563 79.691 82.427 79.073C81.6977 78.455 81.2427 77.6807 81.062 76.75H77V75.25H81.062C81.2427 74.3193 81.6977 73.545 82.427 72.927C83.1563 72.309 84.014 72 85 72C85.986 72 86.8437 72.309 87.573 72.927C88.3023 73.545 88.7573 74.3193 88.938 75.25H93V76.75H88.938C88.7573 77.6807 88.3023 78.455 87.573 79.073C86.8437 79.691 85.986 80 85 80ZM85 78.5C85.6947 78.5 86.285 78.257 86.771 77.771C87.257 77.285 87.5 76.6947 87.5 76C87.5 75.3053 87.257 74.715 86.771 74.229C86.285 73.743 85.6947 73.5 85 73.5C84.3053 73.5 83.715 73.743 83.229 74.229C82.743 74.715 82.5 75.3053 82.5 76C82.5 76.6947 82.743 77.285 83.229 77.771C83.715 78.257 84.3053 78.5 85 78.5Z"
-              fill="black" />
-          </g>
+    <svg width="600" height="157" viewBox="0 0 600 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;">
+        <g id="card">
+            <path d="M600,8C600,3.585 596.415,0 592,0L8,0C3.585,0 0,3.585 0,8L0,149C0,153.415 3.585,157 8,157L592,157C596.415,157 600,153.415 600,149L600,8Z" style="fill:white;"/>
+            <g transform="matrix(1,0,0,1,24,45.26)">
+                <g id="header">
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:20px;">UserName Goal for 2022</text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,474.029,84.208)">
+                <g id="denominator">
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16px;">99999 / 99999</text>
+                </g>
+            </g>
+            <path id="Vector-1" serif:id="Vector 1" d="M27.93,94L576,94" style="fill:none;fill-rule:nonzero;stroke:rgb(224,224,224);stroke-width:8px;"/>
+            <g id="Vector-2" serif:id="Vector 2" transform="matrix(0.985294,0,0,1,4.29412,0)">
+                <path d="M24,90C21.791,90 20,91.791 20,94C20,96.209 21.791,98 24,98L24,90ZM24,98L292,98L292,90L24,90L24,98Z" style="fill:rgb(83,155,245);fill-rule:nonzero;"/>
+            </g>
+            <g id="denominator_2">
+                <g transform="matrix(1,0,0,1,545.028,116.358)">
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16px;">50</text>
+                </g>
+                <g transform="matrix(1,0,0,1,565.5,116.208)">
+                    <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12px;">%</text>
+                </g>
+            </g>
+            <g id="Group-1" serif:id="Group 1">
+                <g transform="matrix(1,0,0,1,47.3359,79.656)">
+                    <g id="commit">
+                        <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:16px;">commit</text>
+                    </g>
+                </g>
+                <g id="commit_2" transform="matrix(1,0,0,1,-53,-0.1565)">
+                    <g>
+                        <path id="commit_3" d="M85,80C84.014,80 83.156,79.691 82.427,79.073C81.698,78.455 81.243,77.681 81.062,76.75L77,76.75L77,75.25L81.062,75.25C81.243,74.319 81.698,73.545 82.427,72.927C83.156,72.309 84.014,72 85,72C85.986,72 86.844,72.309 87.573,72.927C88.302,73.545 88.757,74.319 88.938,75.25L93,75.25L93,76.75L88.938,76.75C88.757,77.681 88.302,78.455 87.573,79.073C86.844,79.691 85.986,80 85,80ZM85,78.5C85.695,78.5 86.285,78.257 86.771,77.771C87.257,77.285 87.5,76.695 87.5,76C87.5,75.305 87.257,74.715 86.771,74.229C86.285,73.743 85.695,73.5 85,73.5C84.305,73.5 83.715,73.743 83.229,74.229C82.743,74.715 82.5,75.305 82.5,76C82.5,76.695 82.743,77.285 83.229,77.771C83.715,78.257 84.305,78.5 85,78.5Z" style="fill:rgb(128,128,128);fill-rule:nonzero;"/>
+                    </g>
+                </g>
+            </g>
+            <path d="M599.5,8C599.5,3.861 596.139,0.5 592,0.5L8,0.5C3.861,0.5 0.5,3.861 0.5,8L0.5,149C0.5,153.139 3.861,156.5 8,156.5L592,156.5C596.139,156.5 599.5,153.139 599.5,149L599.5,8Z" style="fill:none;stroke:rgb(131,131,131);stroke-opacity:0.5;stroke-width:1px;stroke-linecap:butt;"/>
         </g>
-      </g>
-      <rect x="0.5" y="0.5" width="599" height="213" rx="7.5" stroke="#838383" stroke-opacity="0.5" />
-    </g>
-  </svg>
+    </svg>
+    
     `;
   }
 }
